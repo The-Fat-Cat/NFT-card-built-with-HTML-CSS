@@ -1,0 +1,170 @@
+/*<!--
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
+
+
+*/
+
+
+html{
+    background-color:hsl(217, 54%, 11%);
+    padding: 58px 
+}
+
+body{
+	display: block;
+    background-color:hsl(216, 50%, 16%);
+    margin-top:6em;
+    border-radius:5%;
+    box-shadow: -1px 25px 15px 12px rgba(12, 11, 12, 0.12);
+	padding-top: 20px;
+}
+
+.images{
+	width: 250px;
+	height: 250px;
+    background-image:url("images/image-equilibrium.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+    border-radius:10px; 
+	margin: auto;
+}
+.images:hover{
+	background-image: url("images/icon-view.svg");
+	background-repeat:no-repeat;
+	background-color:hsl(178, 100%, 50%);
+	background-size:40%;
+	background-position: center;
+}
+.top{
+    padding:4%;
+	padding-top: 20px;
+    position: relative;
+    left:5%;
+    color:hsl(0, 0%, 100%);
+    font-family: "Outfit";
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.top:hover{
+    color:hsl(178, 100%, 50%);
+}
+.middle{
+    padding-left:8%;
+    padding-right:3.3%;
+    padding-bottom: 8%;
+    color:hsl(215, 51%, 70%);
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size:15px;
+}
+.left{
+    position: relative;
+    left: 25px;
+    top: 1px;
+    margin-left:3%;
+    color:hsl(178, 100%, 50%);
+    font-family: "Outfit";
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.ETH{
+    position: relative;
+    left: 27px;
+}
+.right{
+    position: relative;
+    left:26px;
+    bottom: 1px;
+    color:hsl(215, 51%, 70%);
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size: 16px;
+}
+.clock{
+    position: relative;
+    left: 20px;
+    margin-left:28%;
+    top: 1px;
+}
+hr{
+    margin: 5%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+.avatar{
+   /* My first attempt at trying to align these items on the same line.
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 7%; 
+    */
+    margin-left:7%;
+    margin-bottom: 8%;
+    max-width:11%;
+    border:hsla(0,0%,100%,1.00);
+    border-style: solid;
+    border-radius: 100%;
+    border-width: thin;
+}
+.bottom{
+   /* 
+    margin-top: 2%;
+    margin-bottom:3%;
+    display: inline-block;
+     */
+    margin-top: 3%;
+    margin-left: 5%;
+    color:hsl(215, 51%, 70%);
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size:0.8em;
+    letter-spacing: 1px;
+}
+span{
+    color:hsl(0, 0%, 100%);
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+span:hover{
+    color:hsl(178, 100%, 50%);
+}
+.down{
+    display: flex;
+}
+.third{
+    display: flex;
+}
