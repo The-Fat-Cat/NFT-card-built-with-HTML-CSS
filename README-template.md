@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned the importance of documentation. Unfortunately I got very sick in the middle of this project and wasn't able to code for a while and when I came back to my code I was a little bit lost because I hadn't documented or commented as much as I should have. For the enxt one I'm taking more time to plan and use things like Figma which are digital parts of the planning process and also making more comments in my code. Overall organization is very important. 
+I learned the importance of documentation. Unfortunately I got very sick in the middle of this project and wasn't able to code for a while and when I came back to my code I was a little bit lost because I hadn't documented or commented as much as I should have. For the next one I'm taking more time to plan and use things like Figma which are digital parts of the planning process and also making more comments in my code. Overall organization is very important. 
 
 ### Continued development
 
